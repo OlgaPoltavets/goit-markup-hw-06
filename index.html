@@ -40,7 +40,8 @@
             <!-- Ссылка на адрес электронной почты  -->
             <a class="contacts-item__link" href="mailto:info@devstudio.com">
               <svg class="contacts-item__info" width="16" height="11.2">
-                <use href="./images/sprite.svg#icon-envelope"></svg>info@devstudio.com
+                <use href="./images/sprite.svg#icon-envelope"></use></svg
+              >info@devstudio.com
             </a>
           </li>
 
@@ -48,7 +49,8 @@
             <!-- Ссылка на телефонный номер -->
             <a class="contacts-item__link" href="tel:+380961111111">
               <svg class="contacts-item__info" width="10" height="15">
-                <use href="./images/sprite.svg#icon-smartphone"></svg>+38 096 111 11 11
+                <use href="./images/sprite.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11
             </a>
           </li>
         </ul>
@@ -65,62 +67,110 @@
                 <h1 class="hero__title">
                   Эффективные решения для вашего бизнеса
                 </h1>
-                <button class="hero__button" type="button" data-modal-open="">Заказать услугу</button>
+                <button class="hero__button" type="button" data-modal-open="">
+                  Заказать услугу
+                </button>
                 <div class="backdrop" data-modal="">
                   <div class="modal">
                     <!-- Form -->
                     <form class="form" autocomplete="off">
-                      <b class="form__title">Оставьте свои данные, мы вам перезвоним</b>
+                      <b class="form__title"
+                        >Оставьте свои данные, мы вам перезвоним</b
+                      >
                       <div class="form-field">
-                        <input type="text" class="form-input" name="name" id="name" placeholder=" ">
+                        <input
+                          type="text"
+                          class="form-input"
+                          name="names"
+                          id="name"
+                          placeholder=" "
+                        />
                         <label for="name" class="form-label">Имя</label>
                         <svg class="form__icon" width="12" height="12">
-                          <use href="./images/sprite2.svg#icon-form-person"></use>
+                          <use
+                            href="./images/sprite2.svg#icon-form-person"
+                          ></use>
                         </svg>
                       </div>
-                    
+
                       <div class="form-field">
-                        <input type="text" class="form-input" name="name" id="name" placeholder=" ">
+                        <input
+                          type="text"
+                          class="form-input"
+                          name="names"
+                          id="name"
+                          placeholder=" "
+                        />
                         <label for="name" class="form-label">Телефон</label>
                         <svg class="form__icon" width="13" height="13">
-                          <use href="./images/sprite2.svg#icon-form-phone"></use>
+                          <use
+                            href="./images/sprite2.svg#icon-form-phone"
+                          ></use>
                         </svg>
                       </div>
-                    
+
                       <div class="form-field">
-                        <input type="text" class="form-input" name="name" id="name" placeholder=" ">
+                        <input
+                          type="text"
+                          class="form-input"
+                          name="names"
+                          id="name"
+                          placeholder=" "
+                        />
                         <label for="name" class="form-label">Почта</label>
                         <svg class="form__icon" width="15" height="12">
-                          <use href="./images/sprite2.svg#icon-form-email"></use>
+                          <use
+                            href="./images/sprite2.svg#icon-form-email"
+                          ></use>
                         </svg>
                       </div>
-                    
+
                       <!-- Комментарий -->
                       <div class="form-comment">
-                        <textarea id="comment" class="comment-textarea" name="comment" placeholder=" "></textarea>
-                        <label class="comment-label" for="comment">Комментарий</label>
+                        <textarea
+                          id="comments"
+                          class="comment-textarea"
+                          name="comment"
+                          placeholder=" "
+                        ></textarea>
+                        <label class="comment-label" for="comment"
+                          >Комментарий</label
+                        >
                       </div>
-                    
+
                       <!-- Checkbox -->
                       <label class="checkbox-label">
-                        <input class="checkbox" type="checkbox" name="topic" value="agfee">
+                        <input
+                          class="checkbox"
+                          type="checkbox"
+                          name="topic"
+                          value="agfee"
+                        />
                         <span class="checkbox__icon"></span>
-                        <span class="checkbox__text">Соглашаюсь с рассылкой и принимаю</span>
+                        <span class="checkbox__text"
+                          >Соглашаюсь с рассылкой и принимаю</span
+                        >
                         <span class="checkbox__contract">
                           <a href="">Условия договора</a>
                         </span>
                         <svg class="check__icon">
-                          <use href="./images/sprite2.svg#icon-form-check"></use>
+                          <use
+                            href="./images/sprite2.svg#icon-form-check"
+                          ></use>
                         </svg>
                       </label>
-                    
+
                       <!-- Кнопка Отправить-->
-                      <button class="form__button" type="submit">Отправить</button>
+                      <button class="form__button" type="submit">
+                        Отправить
+                      </button>
                     </form>
 
                     <!-- Кнопка Close-->
                     <button class="form-close" data-modal-close="">
-                      <svg class="form-close__icon"><use href="./images/sprite2.svg#icon-form-close"></use></svg>
+                      <svg class="form-close__icon">
+                        <use href="./images/sprite2.svg#icon-form-close"></use>
+                      </svg>
                     </button>
                   </div>
                 </div>
@@ -487,7 +537,7 @@
           <div class="footer-address">
             <a class="address-logo"
               ><span class="page-footer__logo">Web</span>
-              <span class="page-footer__logo-invers">  Studio</span></a
+              <span class="page-footer__logo-invers"> Studio</span></a
             >
             <ul class="address">
               <li class="address-item">
@@ -496,10 +546,14 @@
                 >
               </li>
               <li class="address-item">
-                <a href="mailto:info@example.com" class="address-item__list">info@example.com</a>
+                <a href="mailto:info@example.com" class="address-item__list"
+                  >info@example.com</a
+                >
               </li>
               <li class="address-item">
-                <a href="tel:+380991111111" class="address-item__list">+38 099 111 11 11</a>
+                <a href="tel:+380991111111" class="address-item__list"
+                  >+38 099 111 11 11</a
+                >
               </li>
             </ul>
           </div>
@@ -544,11 +598,17 @@
           <div class="e-mail">
             <p class="page-footer__title">Подпишитесь на рассылку</p>
             <form class="footer-button">
-              <input id="email" class="footer-e-mail" type="email" name="mail" placeholder="E-mail">
-              <buttom class="button button-down" type="submit">
-                Подписаться
-              </buttom>
+              <input
+                id="email"
+                class="footer-e-mail"
+                type="email"
+                name="mail"
+                placeholder="E-mail"
+              />
             </form>
+            <buttom class="button button-down" type="submit">
+              Подписаться
+            </buttom>
           </div>
         </div>
 
@@ -560,5 +620,4 @@
 
     <script src="./js/modal.js"></script>
   </body>
-  
-  </html>
+</html>
